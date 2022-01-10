@@ -1,3 +1,5 @@
+//https://nathanfenoglio.github.io/multi_dimensional_mazes/
+
 //global variables
 //var cols, rows; //comes from maze_info.js now
 //var w = 40; //width of cell
@@ -13,7 +15,7 @@ var sleep_time = 500; //time in milliseconds to wait to show next maze plane aft
 var start = true; //signifying starting up maze, start up whatev, maybe tutorial about how to play etc. 
 var letsgetitstarted;
 let start_index = 0;
-let goal_index = 124;
+let goal_index = 105;
 
 function setup() {
 	//get all of the maze info from maze_info.js
